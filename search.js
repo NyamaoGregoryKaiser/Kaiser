@@ -9,7 +9,7 @@ searchButton.addEventListener("click", async () => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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' // Replace YOUR_API_KEY with your actual OpenAI API key
+      'Authorization': 'Bearer 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' // Replace YOUR_API_KEY with your actual OpenAI API key
     },
     body: JSON.stringify({
       model: 'gpt-3.5-turbo',
